@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using PokemonApp.Dto;
@@ -48,7 +49,7 @@ namespace PokemonApp.Controllers
             return Ok(pokemons);
         }
 
-        [HttpPost]
+        [HttpPost, Authorize]
         [ProducesResponseType(200)]
         [ProducesResponseType(400)]
         public ActionResult<IEnumerable<Pokemon>> InserPokemon([FromBody] PokemonDTO pokemon)
