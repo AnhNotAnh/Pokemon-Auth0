@@ -1,5 +1,5 @@
 # Pokemon
-This Web API application, integrated with Auth0, is designed to securely view and insert Pokemon data. The project's goal is to add authorization to an ASP.NET Core Web API application using standard JWT middleware. This project allows me to get to know Auth0 and understand the basic concepts of authorization in Auth0.
+This Web API application, integrated with Auth0, is designed to securely view and insert Pokemon data. The project's goal is to learn how to implement authorization to an ASP.NET Core Web API application using standard JWT middleware. This project allows me to get to know Auth0 and understand the essential concepts of authorization in Auth0.
 
 ## Table of Contents
 - [Installation](#installation)
